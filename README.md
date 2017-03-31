@@ -2,10 +2,10 @@
 
 ## TODODODODO
 
-*Make a list of fail states of processes and
-*Make DRUGS a list of executables {vasp,vasp-half,p{w,h}.x, and so on} that users usually 
-*
-*PROFIT
+* Make a list of fail states of processes and
+* Make DRUGS a list of executables {vasp,vasp-half,p{w,h}.x, and so on} that users usually 
+* 
+* PROFIT
 
 ## SLl_monitor.sh
 

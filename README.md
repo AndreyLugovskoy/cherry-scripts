@@ -20,7 +20,7 @@ Shits in your /tmp/
 Finds out, if the swap is not free on node
 and finds out which and whose job is running
 on node.
---(Punishes the job user)--
+-(Punishes the job user)-
 
 swapthings.sh contains the commands to be run
 on node

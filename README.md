@@ -26,6 +26,8 @@ on node.
 swapthings.sh contains the commands to be run
 on node
 
+Uses squeue instead of ssact unlike swap_func.sh 
+
 ## clean_shm_pssh.sh
 
 searches and destorys certain directory stored in

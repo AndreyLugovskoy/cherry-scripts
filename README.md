@@ -3,7 +3,8 @@
 ## TODODODODO
 
 * Make a list of fail states of processes
-* Make DRUGS a list of executables {vasp,vasp-half,p{w,h}.x, and so on} that users usually 
+* Make DRUGS a list of executables {vasp,vasp-half,p{w,h}.x, and so on} 
+that users usually run (ask them or what?)
 
 ## SLl_monitor.sh
 

@@ -1,5 +1,6 @@
 # dump it all in tmp_file
 #RANDOMRANDOAMSDA*#FHQP(QHWF
+
 tmp_ndlist=/tmp/$RANDOM\.nd_list_sll
 sinfo --Node | tail -n +2 | grep -v 'down' | awk '{print $1}' | sort -u >> $tmp_ndlist
 
@@ -10,8 +11,9 @@ sinfo --Node | tail -n +2 | grep -v 'down' | awk '{print $1}' | sort -u >> $tmp_
 # I wish it was python
 
 # get 
-pssh_out=`pssh -h $tmp_ndlist -i "ps aux | grep '\([^\s]*\s\)\{7\}\(Z\|SLl\)\s' | grep -v grep | grep 'vasp\|ph\|pw'"`
-rm $tmp_ndlist
+pssh_out=`pssh -h $tmp_ndlist -i "ls /dev/shm/andrey | rm -r /dev/shm/andrey"`
+mv $tmp_ndlist ./
+#rm $tmp_ndlist
 
 
 # Only success

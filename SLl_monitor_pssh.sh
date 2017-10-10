@@ -10,7 +10,7 @@ sinfo --Node | tail -n +2 | grep -v 'down' | awk '{print $1}' | sort -u >> $tmp_
 # I wish it was python
 
 # get 
-pssh_out=`pssh -h $tmp_ndlist -i "ps aux | grep '\([^\s]*\s\)\{7\}\(Z\|SLl\)\s' | grep -v grep | grep 'vasp\|ph\|pw'"`
+pssh_out=`pssh -h $tmp_ndlist -i "ps aux | grep '\([^\s]*\s\)\{7\}\(Z\|SLl\|S\)\s' | grep -v grep | grep 'vasp\|ph\|pw' | grep -v '\(mpirun\|mpiexec\)'"`
 rm $tmp_ndlist
 
 

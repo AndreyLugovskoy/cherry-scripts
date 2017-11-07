@@ -29,15 +29,7 @@ Finds out, if the swap is not free on node
 and finds out which and whose job is running
 on node.
 
-~~Punishes the user (oh shit! it's me)~~
-
 swapthings.sh contains the commands to be run
 on node
 
 Uses squeue instead of ssact unlike swap_func.sh 
-
-## clean_shm_pssh.sh
-
-searches and destorys certain directory stored in
-/dev/shm. Or anything else you can only reach
-while only being on node

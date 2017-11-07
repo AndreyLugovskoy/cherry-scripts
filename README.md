@@ -29,6 +29,8 @@ Finds out, if the swap is not free on node
 and finds out which and whose job is running
 on node.
 
+Warning: output will look wierd, if node is free but swap is occupied.
+
 swapthings.sh contains the commands to be run
 on node
 
